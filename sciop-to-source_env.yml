@@ -1,0 +1,16 @@
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12
+  - aria2
+  - jupyterlab
+  - awscli
+  - coiled
+  - xarray
+  - fsspec
+  - s3fs
+  - hvplot
+  - geoviews
+  - datashader
+  - panel
