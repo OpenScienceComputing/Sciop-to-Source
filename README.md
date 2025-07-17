@@ -9,3 +9,4 @@ Tools for moving data from Sciop (bittorrent) to Source.coop (AWS bucket)
    ```
    coiled notebook start --region us-west-2 --vm-type m5.large --software sciop-to-source --name sciop-to-source --workspace esip-lab --env AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID --env AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY --env AWS_REQUEST_CHECKSUM_CALCULATION=WHEN_REQUIRED --disk-size 50GB
    ``` 
+3. Copy the Sciop-to-Source.ipynb notebook into the JupyterLab and run it!
