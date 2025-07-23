@@ -10,7 +10,7 @@ Tools for moving data from Sciop (bittorrent) to Source.coop (AWS bucket)
    ```
 1. Create the Coiled environment to use the ARIA2 CLI and Jupyter Notebooks
    ``` bash
-     coiled env create --name sciop-to-source --workspace esip-lab --conda sciop-to-source_env.yml
+   coiled env create --name sciop-to-source --workspace esip-lab --conda sciop-to-source_env.yml
    ```
 1. Start up a notebook on Coiled using this environment with (a) sufficient disk space for the torrent you are accessing, and (b) passing in the AWS Credentials needed to write to Source.coop as environment variables:
    ``` bash
