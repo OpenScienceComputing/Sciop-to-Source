@@ -14,3 +14,5 @@ dependencies:
   - geoviews
   - datashader
   - panel
+  - lonboard
+  - rio-cogeo
