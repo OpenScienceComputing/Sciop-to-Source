@@ -6,9 +6,9 @@
 1. Install Coiled
    [Install conda](https://conda-forge.org/download/) if not already installed
    ``` bash
-   conda create -n coiled coiled
+   conda create -n coiled coiled -y
    conda activate coiled
-   export DASK_COILED__TOKEN=https://conda-forge.org/download/0d98de5376c148cfa1a42506cabb91b4-b680b641f13363e926760686e736175e59ecf1d5
+   export DASK_COILED__TOKEN=0d98de5376c148cfa1a42506cabb91b4-b680b641f13363e926760686e736175e59ecf1d5
    ```
 1. To start Jupyterlab for downloading and exploring data use this: 
    ``` bash
