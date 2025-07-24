@@ -9,7 +9,7 @@
    conda create -n coiled coiled -y
    conda activate coiled
    ```
-1. 
+1. Set a TOKEN that give you access to the ESIP-LAB Coiled account (for today only) 
    ```
    export DASK_COILED__TOKEN=0d98de5376c148cfa1a42506cabb91b4-b680b641f13363e926760686e736175e59ecf1d5
    ```
