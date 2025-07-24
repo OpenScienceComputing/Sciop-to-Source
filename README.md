@@ -17,9 +17,10 @@
 1. To start Jupyterlab for downloading and exploring data use this: 
 with (a) sufficient disk space for the torrent you are accessing, and (b) passing in the AWS Credentials needed to write to Source.coop as environment variables:
    ``` bash
-   coiled notebook start --region us-west-2 --vm-type m5.large --software esip2025 --workspace esip-lab --disk-size 50GB 
+   coiled notebook start --region us-west-2 --vm-type m5.large --software esip2025 --workspace esip-lab --disk-size 50GB
    ``` 
 1. To start Jupyterlab for downloading, exploring data and pushing to Source.coop use this: 
+   ``` bash
    coiled notebook start --region us-west-2 --vm-type m5.large --software esip2025 --workspace esip-lab --disk-size 50GB --env AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID --env AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY --env AWS_REQUEST_CHECKSUM_CALCULATION=WHEN_REQUIRED 
    ``` 
 1. Open a terminal in Jupyterlab and type:
